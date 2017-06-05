@@ -1,3 +1,9 @@
 body {
-  background-color: blue;
+  margin: 0;
+  font-family: 'Alegreya SC', serif;
+  background-color: #ebebeb;
+  color: #142F30;
 }
+
+@import 'articles.scss';
+@import 'header.scss';
