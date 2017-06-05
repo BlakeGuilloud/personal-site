@@ -5,5 +5,10 @@ body {
   color: #142F30;
 }
 
+.page__title {
+  font-size: 30px;
+  text-align: center;
+}
+
 @import 'articles.scss';
 @import 'header.scss';

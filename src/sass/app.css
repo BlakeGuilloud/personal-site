@@ -4,12 +4,12 @@ body {
   background-color: #ebebeb;
   color: #142F30; }
 
-.articles {
-  padding: 40px;
+.page__title {
+  font-size: 30px;
   text-align: center; }
 
-.articles__title {
-  font-size: 30px; }
+.articles {
+  padding: 20px; }
 
 .articles__content {
   display: flex;
@@ -19,7 +19,7 @@ body {
 .articles__content-item:hover {
   border: 1px solid #b4b4b4;
   box-shadow: 0px 3px 5px #888888, 0px 0px 5px #888;
-  transition: box-shadow .5s; }
+  transition: box-shadow .3s; }
 
 .articles__content-item {
   box-shadow: 0px 0px 10px #cdcdcd, 0px 0px 5px #cdcdcd;
@@ -55,23 +55,34 @@ body {
 
 .header {
   background-color: #142F30;
-  height: 70px;
+  height: 100px;
   color: #ebebeb;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
   box-shadow: 0px 3px 5px #888888, 0px -2px 5px #888;
-  padding: 20px;
-  padding-bottom: 0px;
-  padding-top: 60px; }
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px; }
 
-.header__title {
-  font-size: 24px; }
+.header__title-name {
+  font-size: 28px; }
+
+.header__title-title {
+  font-size: 20px; }
 
 .header__nav {
-  display: flex; }
+  display: flex;
+  font-size: 18px; }
 
 .header__nav-item {
   color: inherit;
   margin-left: 10px; }
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    height: 100px;
+    text-align: center; } }

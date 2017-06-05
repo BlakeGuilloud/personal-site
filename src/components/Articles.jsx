@@ -7,7 +7,7 @@ export default class Articles extends Component {
   render() {
     return (
       <div className="articles">
-        <div className="articles__title">
+        <div className="page__title">
           Articles
         </div>
         <div className="articles__content">

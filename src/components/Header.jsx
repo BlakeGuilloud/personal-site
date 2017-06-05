@@ -11,6 +11,9 @@ export default class Header extends Component {
           <div className="header__title-name">
             Blake Guilloud
           </div>
+          <div className="header__title-title">
+            Web Solutions
+          </div>
         </div>
         <div className="header__nav">
           <Link to="" className="header__nav-item">
